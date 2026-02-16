@@ -26,12 +26,11 @@
   list-style-type: none;
   text-decoration: none;
   font-size: 18px;
-  padding-left: 14px;
-  padding-right: 2px;
+  padding: 0px 2px 4px 30px;
 }
 
 .tab-center {
-  padding-right: 5px;
+  padding-right: 7px;
 }
 
 .color-line {
@@ -56,6 +55,7 @@
   display: flex;
   justify-self: end;
   padding-right: 65px;
+  padding-bottom: 5px;
   text-underline-offset: 25%;
 }
 
@@ -145,7 +145,7 @@
 }
 
 .button {
-  padding: 12px 32px;
+  padding: 12px 35px;
   text-transform: uppercase;
   color: #fff;
   background: transparent;
@@ -323,13 +323,22 @@
   padding-right: 10px;
 }
 
+.tab-lots {
+  padding-right: 10px;
+}
+
+.tab-auction {
+  padding-right: 10px;
+}
+
 .platforms {
   display: flex;
   flex-direction: row;
   gap: 48px;
   list-style-type: none;
+  width: 250px;
 }
 
 .block-platforms {
-  padding: 0px 60px 50px;
+  padding: 0px 50px 50px;
 }
