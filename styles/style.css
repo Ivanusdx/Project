@@ -63,7 +63,7 @@
   margin-bottom: -45px;
 }
 
-.block-logo {
+.block-cover {
   position: relative;
   z-index: 1;
   width: 100%;
@@ -83,7 +83,7 @@
   filter: brightness(0.5);
 }
 
-.block-cover {
+.block-heading {
   position: absolute;
   z-index: 1;
   width: 100%;
@@ -101,26 +101,26 @@
   text-transform: uppercase;
 }
 
-.text-left {
+.word-left {
   display: block;
   letter-spacing: 30px;
   padding: 165px 0px 0px 40px;
 }
 
-.text-center {
+.word-center {
   display: block;
   position: relative;
   z-index: 2;
   letter-spacing: 30px;
-  padding: 300px 10px;
+  padding: 300px 14px;
 }
 
-.text-right {
+.word-right {
   display: block;
   position: absolute;
   z-index: 2;
   letter-spacing: 30px;
-  padding: 440px 653px;
+  padding: 436px 653px;
 }
 
 .description {
@@ -133,19 +133,19 @@
   max-width: 1100px;
   left: 50%;
   align-items: center;
-  padding: 0px 48px;
+  padding: 0px 50px;
   justify-content: space-between;
 }
 
 .line-cover {
   color: #fff;
   font-size: 22px;
-  word-spacing: 20px;
+  word-spacing: 19px;
   text-transform: uppercase;
 }
 
 .button {
-  padding: 12px 35px;
+  padding: 11px 34px;
   text-transform: uppercase;
   color: #fff;
   background: transparent;
@@ -164,23 +164,23 @@
   text-transform: uppercase;
   font-size: 40px;
   font-weight: 700;
-  padding: 145px 915px 0px 70px;
+  padding: 148px 920px 0px 70px;
 }
 
 .lots-right {
-  background: url("images/lot1.jpg") no-repeat;
+  background: url("/images/lot1.jpg") no-repeat;
   width: 334px;
   height: 596px;
 }
 
 .lots-center {
-  background: url("images/lot2.jpg") no-repeat;
+  background: url("/images/lot2.jpg") no-repeat;
   width: 334px;
   height: 596px;
 }
 
 .lots-left {
-  background: url("images/lot3.jpg") no-repeat;
+  background: url("/images/lot3.jpg") no-repeat;
   width: 334px;
   height: 596px;
 }
@@ -221,7 +221,7 @@
 }
 
 .card-title {
-  padding: 50px 40px 0px;
+  padding: 48px 40px 0px;
   font-size: 22px;
   font-weight: 700;
   text-decoration: underline;
@@ -232,13 +232,26 @@
   font-size: 20px;
   position: relative;
   z-index: 2;
-  padding: 0px 40px 50px;
 }
 
+.text-left{
+ padding: 248px 40px 50px;
+}
+
+.text-center{
+padding: 2px 40px 50px;
+line-height: 1.21;
+}
+
+.text-right{
+padding: 100px 60px 50px 40px;
+line-height: 1.19;
+}
+ 
 .card-lots {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+ gap: 30px;
 }
 
 .text-string {
@@ -289,6 +302,7 @@
   line-height: 1, 15;
   font-size: 20px;
   padding-right: 28px;
+  line-height: 1.21;
 }
 
 .field-footer {
