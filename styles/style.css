@@ -165,7 +165,7 @@
 .content-section {
   background-color: #fff;
   max-width: 1100px;
-  height: 898px;
+  height: 897px;
   margin: auto;
 }
 
@@ -278,7 +278,7 @@ line-height: 1.19;
 }
 
 .block-circle {
-  padding: 154px 70px;
+  padding: 155px  70px;
 }
 
 .circle {
@@ -301,7 +301,7 @@ line-height: 1.19;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 40px;
-  padding: 255px 0px 100px;
+  padding: 257px 0px 100px;
 }
 
 .text-stock {
@@ -323,7 +323,8 @@ line-height: 1.19;
 }
 
 .block-address2 {
-  padding: 0px 50px 82px 50px;
+  padding: 0px 50px 82px 51px;
+  text-underline-offset: 20%;
 }
 
 .block-text {
@@ -348,10 +349,14 @@ line-height: 1.19;
 
 .tab-lots {
   padding-right: 10px;
+   line-height: 1.21;
+    text-underline-offset: 20%;
 }
 
 .tab-auction {
   padding-right: 10px;
+  line-height: 1.11;
+   text-underline-offset: 20%;
 }
 
 .platforms {
@@ -363,5 +368,5 @@ line-height: 1.19;
 }
 
 .block-platforms {
-  padding: 0px 50px 50px;
+  padding: 0px 49px 50px;
 }
