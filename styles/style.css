@@ -343,6 +343,7 @@ line-height: 1.19;
 .tab-chapter {
   text-decoration: none;
   padding-right: 10px;
+  padding-top: 10px;
 }
 
 .tab-lots {
