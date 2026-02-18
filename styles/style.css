@@ -16,21 +16,29 @@
 .nav {
   display: flex;
   flex-direction: row;
-  gap: 32px;
+  gap: 30px;
   list-style-type: circle;
   font-size: 18px;
   text-underline-offset: 25%;
 }
 
-.tab-chapter {
+.tab-left {
   list-style-type: none;
-  text-decoration: none;
-  font-size: 18px;
-  padding: 0px 2px 4px 30px;
+  font-size: 17px;
+  padding: 0px 2px 6px 29px;
+  letter-spacing: 1px;
+}
+
+.chapter{
+ text-decoration: none;
 }
 
 .tab-center {
-  padding-right: 7px;
+  padding-right: 5px;
+}
+
+.tab-right{
+  padding-left: 3px;
 }
 
 .color-line {
@@ -40,6 +48,7 @@
 .logo {
   width: 148px;
   height: 105px;
+  padding-left: 4px;
 }
 
 .address {
@@ -54,8 +63,8 @@
 .block-address {
   display: flex;
   justify-self: end;
-  padding-right: 65px;
-  padding-bottom: 5px;
+  padding-right: 67px;
+  padding-bottom: 3px;
   text-underline-offset: 25%;
 }
 
@@ -299,7 +308,6 @@ line-height: 1.19;
   display: flex;
   flex-direction: column;
   gap: 24px;
-  line-height: 1, 15;
   font-size: 20px;
   padding-right: 28px;
   line-height: 1.21;
@@ -332,7 +340,7 @@ line-height: 1.19;
   padding-left: 10px;
 }
 
-.tab-chapter2 {
+.tab-chapter {
   text-decoration: none;
   padding-right: 10px;
 }
