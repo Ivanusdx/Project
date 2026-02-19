@@ -151,7 +151,7 @@
   font-size: 22px;
   word-spacing: 19px;
   text-transform: uppercase;
-  transform: scaleX(1.01);
+  border-left: 3px solid transparent;
 }
 
 .button {
@@ -245,17 +245,20 @@
 }
 
 .text-left{
- padding: 245px 40px 50px;
+ padding: 245px 43px 50px 9px;
+ border-left: 34px solid transparent;
 }
 
 .text-center{
 padding: 2px 40px 50px;
 line-height: 1.21;
+border-left: 4px solid transparent;
 }
 
 .text-right{
-padding: 100px 60px 50px 42px;
+padding: 100px 40px 50px 36px;
 line-height: 1.19;
+border-left: 9px solid transparent;
 }
  
 .card-lots {
@@ -265,11 +268,12 @@ line-height: 1.19;
 }
 
 .text-string {
-  padding: 0px 71px 150px;
+  padding: 0px 66px 150px;
   font-size: 20px;
   text-decoration: underline;
   text-underline-offset: 17%;
   color: #000;
+  border-left: 6px solid transparent;
 }
 
 .container-text {
@@ -310,8 +314,9 @@ line-height: 1.19;
   flex-direction: column;
   gap: 24px;
   font-size: 20px;
-  padding-right: 28px;
+  padding-right: 20px;
   line-height: 1.21;
+  border-left: 0px solid transparent;
 }
 
 .field-footer {
