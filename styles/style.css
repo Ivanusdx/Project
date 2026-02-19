@@ -178,19 +178,19 @@
 }
 
 .lots-right {
-  background: url("/images/lot1.jpg") no-repeat;
+  background: url("/images/card-lot1.jpg") no-repeat;
   width: 334px;
   height: 596px;
 }
 
 .lots-center {
-  background: url("/images/lot2.jpg") no-repeat;
+  background: url("/images/card-lot2.jpg") no-repeat;
   width: 334px;
   height: 596px;
 }
 
 .lots-left {
-  background: url("/images/lot3.jpg") no-repeat;
+  background: url("/images/card-lot3.jpg") no-repeat;
   width: 334px;
   height: 596px;
 }
