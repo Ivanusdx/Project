@@ -155,7 +155,7 @@
 }
 
 .button {
-  padding: 11px 34px ;
+  padding: 10px 34px 11px 32px;
   text-transform: uppercase;
   color: #fff;
   background: transparent;
@@ -245,18 +245,18 @@
 }
 
 .text-left{
- padding: 245px 43px 50px 9px;
+ padding: 248px 43px 50px 9px;
  border-left: 34px solid transparent;
 }
 
 .text-center{
-padding: 2px 40px 50px;
+padding: 3px 40px 50px;
 line-height: 1.21;
 border-left: 4px solid transparent;
 }
 
 .text-right{
-padding: 100px 40px 50px 36px;
+padding: 101px 40px 50px 36px;
 line-height: 1.19;
 border-left: 9px solid transparent;
 }
